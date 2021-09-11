@@ -9,6 +9,11 @@ public class Main
 
     public static void main(String[] args)
     {
+        dataInput();
+    }
+    public static void dataInput()
+    {
+
         Scanner sc = new Scanner(System.in);
         //создаем объект run для вызова методов из класса Operations
         Operations run = new Operations();
